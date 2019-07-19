@@ -1,0 +1,54 @@
+2019-07-19 14:17:58,452 INFO 9545 [Timer] /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51121550ms at 2019-07-20 04:30:00.002
+2019-07-19 14:17:58,453 INFO 9545 [Timer] /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 34921547ms at 2019-07-20 00:00:00.000
+2019-07-19 14:17:58,453 INFO 9545 [Timer] /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34922547ms at 2019-07-20 00:00:01.000
+2019-07-19 14:17:58,334 INFO 9552 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 14:17:58,334 INFO 9552 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 14:17:58,334 INFO 9552 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 14:27:31,789 INFO 9855 [Timer] /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50548214ms at 2019-07-20 04:30:00.003
+2019-07-19 14:27:31,790 INFO 9855 [Timer] /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 34348211ms at 2019-07-20 00:00:00.000
+2019-07-19 14:27:31,790 INFO 9855 [Timer] /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34349210ms at 2019-07-20 00:00:01.000
+2019-07-19 14:27:31,702 INFO 9856 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 14:27:31,702 INFO 9856 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 14:27:31,702 INFO 9856 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 14:39:21,149 INFO 10194 [Timer] /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49838853ms at 2019-07-20 04:30:00.002
+2019-07-19 14:39:21,150 INFO 10194 [Timer] /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 33638850ms at 2019-07-20 00:00:00.000
+2019-07-19 14:39:21,150 INFO 10194 [Timer] /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33639850ms at 2019-07-20 00:00:01.000
+2019-07-19 14:39:21,090 INFO 10195 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 14:39:21,090 INFO 10195 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 14:39:21,090 INFO 10195 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 14:40:14,157 INFO 10240 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 14:40:14,157 INFO 10240 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 14:40:14,157 INFO 10240 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 15:53:43,289 INFO 12380 [Timer] /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45376713ms at 2019-07-20 04:30:00.002
+2019-07-19 15:53:43,290 INFO 12380 [Timer] /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 29176711ms at 2019-07-20 00:00:00.001
+2019-07-19 15:53:43,290 INFO 12380 [Timer] /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29177710ms at 2019-07-20 00:00:01.000
+2019-07-19 15:53:43,152 INFO 12381 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 15:53:43,152 INFO 12381 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 15:53:43,152 INFO 12381 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 15:57:16,450 INFO 12456 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 15:57:16,450 INFO 12456 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 15:57:16,450 INFO 12456 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 16:01:33,601 INFO 12556 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 16:01:33,601 INFO 12556 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 16:01:33,601 INFO 12556 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 16:01:51,285 INFO 12560 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 16:01:51,285 INFO 12560 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 16:01:51,285 INFO 12560 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 16:02:57,999 INFO 12583 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 16:02:57,999 INFO 12583 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 16:02:57,999 INFO 12583 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 16:03:04,497 INFO 12591 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 16:03:04,497 INFO 12591 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 16:03:04,497 INFO 12591 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 16:03:20,175 INFO 12595 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 16:03:20,175 INFO 12595 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 16:03:20,175 INFO 12595 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 16:03:25,246 INFO 12597 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 16:03:25,246 INFO 12597 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 16:03:25,246 INFO 12597 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 16:05:07,719 INFO 12656 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 16:05:07,719 INFO 12656 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 16:05:07,719 INFO 12656 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-19 16:05:12,678 INFO 12658 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-multipart@2.7.1@egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-19 16:05:12,678 INFO 12658 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-07-19 16:05:12,678 INFO 12658 [egg-schedule]: register schedule /Users/gaotingrong/Desktop/test/eggjs/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

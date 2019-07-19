@@ -1,0 +1,9 @@
+2019-07-19 16:12:35,837 ERROR 12380 nodejs.ClusterClientNoResponseError: client no response in 303045ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/gaotingrong/Desktop/test/eggjs/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 12380
+hostname: C02Y42D3JHD2.local
+
