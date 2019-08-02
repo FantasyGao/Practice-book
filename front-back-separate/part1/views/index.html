@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%=title%></title>
+  </head>
+  <body>
+    <h1>ejs模版</h1>
+    <h2>作者：<%=data.author%></h2>
+    <h2><%=info%></h2>
+    <h1>模版内容</h1>
+    <ul>
+      <%for(var i = 0;i<data.list.length;i++){%>
+        <li>
+          <span><%= data.list[i].id %></span>
+          <span><%= data.list[i].name %></span>
+        </li>
+      <%}%>
+    </ul>
+  </body>
+</html>

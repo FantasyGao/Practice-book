@@ -1,0 +1,12 @@
+{
+  "name": "nuxt-app",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "koa": "^2.7.0",
+    "nuxt": "^2.8.1"
+  }
+}
