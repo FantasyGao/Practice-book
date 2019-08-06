@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "webpack && rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.19.2",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
