@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>上传文件</title>
+  </head>
+  <body>
+    <div>
+      <input id="file" type="file" onchange="uploadFile()"/>
+      <input type="button" value="文件上传" onclick="uploadFile()" />
+    </div>
+    <div>
+      <span>进度: </span>
+      <span id='process'></span>
+    </div>
+  </body>
+  <script>
+    function uploadFile() {
+      const file = document.getElementById('file').files[0];
+      const xhr = new XMLHttpRequest();
+      const reader = new FileReader();
+      console.log(file instanceof Blob);
+      xhr.open('POST', `http://127.0.0.1:8000/upload?name=${file.name}`, true);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+          alert(xhr.responseText);
+        }
+      };
+      xhr.onerror = function(err) {
+        console.log(err);
+      };
+
+      reader.onloadstart = function() {
+        document.getElementById('process').innerText = `0/${file.size}`; 
+      } 
+      reader.onprogress = function(ev) { 
+        document.getElementById('process').innerText = `${ev.loaded}/${file.size}`; 
+      } 
+      reader.onloadend  = function() { 
+        console.log(reader);
+        xhr.send(reader.result);
+      } 
+      // 生成ArrayBuffer数据
+      reader.readAsArrayBuffer(file);
+      // 原始二进制数据
+      // reader.readAsBinaryString(file);
+      // base64数据
+      //reader.readAsDataURL(file);
+      // 字符串数据
+      // reader.readAsText(file, 'UTF-8');
+    }
+  </script>
+</html>

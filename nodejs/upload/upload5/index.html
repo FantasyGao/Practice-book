@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>上传文件</title>
+  </head>
+  <body>
+    <div>
+      <input id="file" type="file"/>
+      <input type="button" value="文件上传" onclick="uploadFile()" />
+    </div>
+    <div>
+      <span>进度: </span>
+      <span id='process'></span>
+    </div>
+  </body>
+  <script>
+    function uploadFile() {
+      const file = document.getElementById('file').files[0];
+      const process = document.getElementById('process');
+      process.innerText = 0;
+      // 分段为1024字节
+      const step = 1024;
+      let slices = [];
+      let n = 0;
+      while (file.size > n * step) {
+        const stage = file.slice(n * step, (n+1) * step);
+        slices.push(stage);
+        n++;
+      }
+      async function upload(i, prevRes) {
+        const s = slices[i];
+        process.innerText = `${i*100/n}%`;
+        if (prevRes && s) {
+          prevRes = await xhrSend(file.name, s);
+          const next = i+1;
+          await upload(next, prevRes);
+        }
+      }
+      upload(0, true)
+    }
+    function xhrSend(name, data) {
+      return new Promise(resolve => {
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', `http://127.0.0.1:8000/upload?name=${name}`, true);
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState == 4 && xhr.status == 200) {
+            resolve(true)
+          }
+        };
+        xhr.onerror = function(err) {
+          resolve(false);
+        };      
+        xhr.send(data); 
+      })
+    }
+  </script>
+</html>
