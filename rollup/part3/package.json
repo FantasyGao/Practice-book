@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "rollup": "^1.18.0",
     "rollup-plugin-node-resolve": "^5.2.0"
